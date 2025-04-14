@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* bebas-neue-latin-400-normal */
+@font-face {
+  font-family: 'Helvetica Now Display';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url('../public/fonts/HelveticaNowDisplay-Regular.woff') format('ttf'), url('../public/fonts/HelveticaNowDisplay-Bold.woff') format('woff');
+}
+
+.sermons-banner-bg {
+  background-image: url('../public/assets/family.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bg-give-bg {
+  background-image: url('../public/assets/hand.png');
+  background-size: cover;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: 400px 200px;
+}
+
+@layer components {
+  .container {
+    @apply px-4;
+  }
+}
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+}
+
+@layer utilities {
+  .heading {
+    @apply font-bold text-4xl md:text-5xl text-center;
+  }
+
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+  .no-visible-scrollbar {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .no-visible-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}
