@@ -27,7 +27,7 @@ const OurProcess = () => {
                 </h4>
                 <p className="text-[#0C0C0CA3] text-lg font-normal font-helveticaNowDisplayRegular">
                   We begin every ministry initiative with prayer and
-                  discernment, seeking God's direction. During this phase, we
+                  discernment, seeking God&apos;s direction. During this phase, we
                   strive to understand the spiritual needs of our congregation
                   and community, gathering insights that will guide our mission.
                 </p>
