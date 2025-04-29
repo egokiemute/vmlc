@@ -54,15 +54,14 @@ const WelcomeToChurch = () => {
       <div className="w-full mx-auto">
         <div className="flex flex-col gap-4 w-full font-neuehasslight">
           <span className="text-xs uppercase bg-gray-300/20 p-3 rounded-full w-fit">
-            🙌🏼 Welcome VLC
+            🙌🏼 Our mandate
           </span>
           <h1 className="text-4xl md:text-5xl font-bold font-helveticaNowDisplayBold max-w-lg">
             We are a family rooted in Christ love.
           </h1>
           <p className="font-normal text-lg sm:text-xl md:text-xl text-[#0C0C0CB0] mb-10 font-helveticaNowDisplayRegular px-2 max-w-xl">
-            We hold firmly to the Word of God as the ultimate standard for
-            doctrine, and we believe that the greatest demonstration of
-            God&apos;s love is found in the redemptive work of Christ.
+            Unveiling kingdom mysteries, preparing for the Rapture by the
+            messages brought by the Prophet William Maroon Branham.
           </p>
           <hr className="text-gray-400 bg-gray-400" />
           <div className="py-2 flex items-center justify-between w-full">

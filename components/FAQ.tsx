@@ -9,45 +9,35 @@ interface FAQ {
 
 const faqs: FAQ[] = [
   {
-    question: "How do I start a project with South Circle?",
+    question: "How is my donation used?",
     answer:
-      "Starting a project with South Circle is simple. First, reach out to us through our contact form or give us a call. We'll set up an initial consultation to understand your needs, goals, and vision. From there, we'll develop a tailored proposal outlining our approach, timeline, and next steps. Once everything is aligned, we'll kick off the project and begin bringing your ideas to life!",
+      "Your donation supports the mission of Celebration Church International to spread the gospel and make disciples around the world. Contributions go towards ministry programs, church operations, cell churches, community outreach, and special initiatives that help us bring transformation and impact to individuals and communities.",
   },
   {
-    question: "What services does South Circle offer?",
+    question: "Can I choose where my donation goes?",
     answer:
-      "Starting a project with South Circle is simple. First, reach out to us through our contact form or give us a call. We'll set up an initial consultation to understand your needs, goals, and vision. From there, we'll develop a tailored proposal outlining our approach, timeline, and next steps. Once everything is aligned, we'll kick off the project and begin bringing your ideas to life!",
+      "Yes! We provide the option to direct your donation towards specific funds or projects, such as missions, church plants, cell churches, or outreach initiatives. During the giving process, you can select the area that resonates most with you, allowing you to support what matters most.",
   },
   {
-    question: "What industries does South Circle specialize in?",
+    question: "Are there other ways to give besides online?",
     answer:
-      "Starting a project with South Circle is simple. First, reach out to us through our contact form or give us a call. We'll set up an initial consultation to understand your needs, goals, and vision. From there, we'll develop a tailored proposal outlining our approach, timeline, and next steps. Once everything is aligned, we'll kick off the project and begin bringing your ideas to life!",
+      "Absolutely! In addition to online giving, you can also contribute through bank transfers, checks, or in-person at any of our church locations. Our team can provide more details to help you give in the way that’s most convenient for you. Please feel free to contact us for more information.",
   },
   {
-    question: "What you can expect from a project?",
+    question: "Is my payment information secured?",
     answer:
-      "Starting a project with South Circle is simple. First, reach out to us through our contact form or give us a call. We'll set up an initial consultation to understand your needs, goals, and vision. From there, we'll develop a tailored proposal outlining our approach, timeline, and next steps. Once everything is aligned, we'll kick off the project and begin bringing your ideas to life!",
+      "Yes, protecting your financial information is our top priority. Our online giving platform uses secure encryption and trusted payment processors to ensure that your data is safe. We are committed to maintaining the highest standards of security for all transactions. Rest assured that your payment information is handled with the utmost care and confidentiality.",
   },
   {
-    question: "What is the typical timeline of a project?",
+    question: "Can I give to support a specific project or initiative?",
     answer:
-      "Starting a project with South Circle is simple. First, reach out to us through our contact form or give us a call. We'll set up an initial consultation to understand your needs, goals, and vision. From there, we'll develop a tailored proposal outlining our approach, timeline, and next steps. Once everything is aligned, we'll kick off the project and begin bringing your ideas to life!",
+      "Yes, you can! We offers designated giving options, allowing you to support specific projects or initiatives within the church. Whether you’re passionate about missions, building projects, or outreach, you can choose to invest in the initiatives closest to your heart.",
   },
   {
-    question: "How does South Circle approach client collaboration?",
+    question: "Who do I contact with my questions?",
     answer:
-      "Starting a project with South Circle is simple. First, reach out to us through our contact form or give us a call. We'll set up an initial consultation to understand your needs, goals, and vision. From there, we'll develop a tailored proposal outlining our approach, timeline, and next steps. Once everything is aligned, we'll kick off the project and begin bringing your ideas to life!",
-  },
-  {
-    question: "How is pricing determined for your services?",
-    answer:
-      "Starting a project with South Circle is simple. First, reach out to us through our contact form or give us a call. We'll set up an initial consultation to understand your needs, goals, and vision. From there, we'll develop a tailored proposal outlining our approach, timeline, and next steps. Once everything is aligned, we'll kick off the project and begin bringing your ideas to life!",
-  },
-  {
-    question: "What payment method do you accept?",
-    answer:
-      "Starting a project with South Circle is simple. First, reach out to us through our contact form or give us a call. We'll set up an initial consultation to understand your needs, goals, and vision. From there, we'll develop a tailored proposal outlining our approach, timeline, and next steps. Once everything is aligned, we'll kick off the project and begin bringing your ideas to life!",
-  },
+      "If you have any questions about giving, please reach out to our Giving Team at givings@vomg.org or call us at +2349019434343. We’re here to assist and ensure that your giving experience at Victory Omega Church is seamless and meaningful.",
+  }
 ];
 
 const FAQ = () => {
@@ -65,12 +55,10 @@ const FAQ = () => {
             <p className="font-helveticaNowDisplayRegular text-gray-400 tracking-[2px] text-lg">
               FAQ
             </p>
-            <h1 className="font-helveticaNowDisplayBold text-4xl sm:text-7xl md:text-[82px] font-bold tracking-wide text-start">
-              Find the{" "}
+            <h1 className="font-helveticaNowDisplayBold text-4xl sm:text-6xl md:text-[60px] font-bold tracking-wide text-start">
+              Have questions?
               <br className="hidden md:inline-block"/>
-              clarity you
-              <br />
-              need here.
+              We have answers.
             </h1>
           </div>
           <div className="flex w-full items-end ml-auto py-4">

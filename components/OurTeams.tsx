@@ -15,25 +15,25 @@ interface Team {
 
 const teams: Team[] = [
   {
-    fullname: "Chidera Nwanyemike",
-    title: "Managing Partner & CEO",
-    imageSrc: "/assets/team/chidera.png",
-    twitter: "https://x.com/chideranwanyemi",
-    linkedin: "https://www.linkedin.com/in/ozoofsouth/",
+    fullname: "Victor Ozoefe",
+    title: "Lead Pastor & Founder",
+    imageSrc: "/assets/team/chidera.jpg",
+    // twitter: "https://x.com/chideranwanyemi",
+    // linkedin: "https://www.linkedin.com/in/ozoofsouth/",
   },
   {
-    fullname: "Oke Omorohwovo",
-    title: "COO & Partner",
-    imageSrc: "/assets/team/oke.png",
-    twitter: "https://x.com/Oakswood6",
-    linkedin: "https://www.linkedin.com/in/oke-omorohwovo-41089515b/",
+    fullname: "Michelle Ozoefe",
+    title: "Co-Pastor & Partner",
+    imageSrc: "/assets/team/oke.jpg",
+    // twitter: "https://x.com/Oakswood6",
+    // linkedin: "https://www.linkedin.com/in/oke-omorohwovo-41089515b/",
   },
   {
-    fullname: "Gold Nelson",
-    title: "Strategy and Client Relations & Partner",
-    imageSrc: "/assets/team/nelson.png",
-    twitter: "https://x.com/i_am_goldnelson",
-    linkedin: "https://www.linkedin.com/in/gold-nelson/",
+    fullname: "Joseph Haruna",
+    title: "Pastor & Partner",
+    imageSrc: "/assets/team/nelson.jpg",
+    // twitter: "https://x.com/i_am_goldnelson",
+    // linkedin: "https://www.linkedin.com/in/gold-nelson/",
   },
 ];
 
@@ -43,24 +43,24 @@ const OurTeams = () => {
       <div className="max-w-8xl w-full">
         <div className="flex flex-col gap-4 w-full font-neuehasslight">
           <span className="text-sm text-gray-400 tracking-[2px] uppercase font-helveticaNowDisplayRegular">
-            Our Team
+            Our Pastors
           </span>
           <hr />
           <div className="py-2 flex items-center justify-between">
             <h2 className="text-3xl font-semibold mb-6 max-w-sm font-helveticaNowDisplayBold">
-              Your go-to crew for getting things done.
+              Our God-Chosen pastors and ministers.
             </h2>
           </div>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 py-4">
           {teams.map((team, index) => (
-            <div key={index} className="max-w-md w-full flex-shrink-0">
+            <div key={index} className="max-w-md w-full h-[400px] flex-shrink-0">
               <Image
                 src={team.imageSrc || ""}
                 alt={team.title || ""}
                 width={1000}
                 height={240}
-                className="object-cover rounded-2xl"
+                className="object-cover h-[400px] rounded-2xl"
               />
               <div className="my-3">
                 <h3 className="text-lg font-semibold truncate font-helveticaNowDisplayBold">
@@ -70,7 +70,7 @@ const OurTeams = () => {
                   {team.title}
                 </p>
               </div>
-              <div className="flex items-center gap-1 text-start mb-3">
+              {/* <div className="flex items-center gap-1 text-start mb-3">
                 <Link href={team.twitter || "#"} className="">
                   <Image src="/assets/x-outline.svg" width={28} height={28} alt="X" />
                 </Link>
@@ -82,7 +82,7 @@ const OurTeams = () => {
                     alt="linkedin"
                   />
                 </Link>
-              </div>
+              </div> */}
             </div>
           ))}
         </div>

@@ -5,16 +5,17 @@ const OurProcess = () => {
     <section className="pt-32 mt-32 mx-auto mb-32">
       <div className="w-full mx-auto">
         <div className="flex flex-col gap-4 w-full font-neuehasslight">
-          <span className="text-sm text-gray-400 tracking-[2px] uppercase font-helveticaNowDisplayRegular">
-            Our Process
+          <span className="text-xs uppercase bg-gray-300/20 p-3 rounded-full w-fit">
+            🙌🏼 Our Ministry Approach
           </span>
           <hr className="text-gray-400 bg-gray-400" />
         </div>
         <div className="space-y-10 mt-12">
           <div className="mb-20">
-            <h1 className="text-3xl md:text-5xl max-w-3xl font-helveticaNowDisplayBold font-semibold text-start">
-              We approach every project with a collaborative process that drives
-              alignment and lays the foundation for long-term success.
+            <h1 className="text-3xl md:text-4xl max-w-3xl font-helveticaNowDisplayBold font-semibold text-start">
+              We believe in a Spirit-led, collaborative approach that fosters
+              unity and lays the foundation for long-term impact in the lives of
+              individuals and the community.
             </h1>
           </div>
           {/* Process Grid */}
@@ -22,106 +23,116 @@ const OurProcess = () => {
             <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="p-10 flex flex-col items-start gap-3  rounded-2xl border-[1px] border-[#0C0C0C1A] bg-[#0C0C0C05]">
                 <h4 className="font-medium font-helveticaNowDisplayBold text-xl tracking-tight">
-                  Research
+                  Seeking God&apos;s Heart
                 </h4>
                 <p className="text-[#0C0C0CA3] text-lg font-normal font-helveticaNowDisplayRegular">
-                  We dive deep into understanding your market, audience, and
-                  challenges. This phase is all about gathering crucial insights
-                  that fuel our innovative strategies and set the foundation for
-                  a successful project.
+                  We begin every ministry initiative with prayer and
+                  discernment, seeking God's direction. During this phase, we
+                  strive to understand the spiritual needs of our congregation
+                  and community, gathering insights that will guide our mission.
                 </p>
                 <div className="w-full flex justify-end py-4 pt-6">
-                  <p className="font-helveticaNowDisplayBold text-5xl text-[#0C0C0C1A]">01</p>
+                  <p className="font-helveticaNowDisplayBold text-5xl text-[#0C0C0C1A]">
+                    01
+                  </p>
                 </div>
               </div>
               <div className="p-10 flex flex-col items-start gap-3  rounded-2xl border-[1px] border-[#0C0C0C1A] bg-[#0C0C0C05]">
                 <h4 className="font-medium font-helveticaNowDisplayBold text-xl tracking-tight">
-                  Definition
+                  Vision & Alignment
                 </h4>
                 <p className="text-[#0C0C0CA3] text-lg font-normal font-helveticaNowDisplayRegular">
-                  We take the insights from research and refine your vision.
-                  This involves setting clear goals, outlining project scope,
-                  and ensuring we&apos;re aligned with your objectives.
-                  It&apos;s about getting everything in focus before we start
-                  creating.
+                  With spiritual clarity, we define the purpose and goals of the
+                  initiative. This step involves aligning our plans with
+                  God&apos;s Word, setting clear objectives, and ensuring our
+                  team is unified in purpose before taking action.
                 </p>
                 <div className="w-full flex justify-end py-4 pt-6">
-                  <p className="font-helveticaNowDisplayBold text-5xl text-[#0C0C0C1A]">02</p>
+                  <p className="font-helveticaNowDisplayBold text-5xl text-[#0C0C0C1A]">
+                    02
+                  </p>
                 </div>
               </div>
               <div className="p-10 flex flex-col items-start gap-3  rounded-2xl border-[1px] border-[#0C0C0C1A] bg-[#0C0C0C05]">
                 <h4 className="font-medium font-helveticaNowDisplayBold text-xl tracking-tight">
-                  Conceptualization
+                  Spirit-led Planning
                 </h4>
                 <p className="text-[#0C0C0CA3] text-lg font-normal font-helveticaNowDisplayRegular">
-                  Here, we let creativity take the lead. Our team brainstorms
-                  and develops bold ideas, transforming your vision into
-                  actionable plans. This stage is where creative solutions are
-                  crafted, setting the stage for impactful results.
+                  This is where vision meets creativity. Our team prayerfully
+                  brainstorms and develops inspired plans that reflect
+                  God&apos;s heart. We craft ministries and programs that meet
+                  real needs and speak life into our community.
                 </p>
                 <div className="w-full flex justify-end py-4 pt-6">
-                  <p className="font-helveticaNowDisplayBold text-5xl text-[#0C0C0C1A]">03</p>
+                  <p className="font-helveticaNowDisplayBold text-5xl text-[#0C0C0C1A]">
+                    03
+                  </p>
                 </div>
               </div>
               <div className="hidden lg:hidden p-10 md:flex flex-col items-start gap-3  rounded-2xl border-[1px] border-[#0C0C0C1A] bg-[#0C0C0C05]">
                 <h4 className="font-medium font-helveticaNowDisplayBold text-xl tracking-tight">
-                  Delivery & follow-up
+                  Faithful Implementation
                 </h4>
                 <p className="text-[#0C0C0CA3] text-lg font-normal font-helveticaNowDisplayRegular">
-                  We execute the plans with precision, turning concepts into
-                  reality. Once the project is live, we don&apos;t just walk
-                  away; we follow up to ensure everything meets your
-                  expectations, and make any necessary adjustments to ensure
-                  flawless execution.
+                  We carry out the vision with care and excellence, always
+                  depending on God&apos;s grace for the outcome. After launching
+                  a ministry or program, we follow up to ensure it&apos;s
+                  bearing fruit and adjust as needed to serve more effectively.
                 </p>
                 <div className="w-full flex justify-end py-4 pt-6">
-                  <p className="font-helveticaNowDisplayBold text-5xl text-[#0C0C0C1A]">04</p>
+                  <p className="font-helveticaNowDisplayBold text-5xl text-[#0C0C0C1A]">
+                    04
+                  </p>
                 </div>
               </div>
             </div>
             <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="hidden md:hidden p-10 lg:flex flex-col items-start gap-3  rounded-2xl border-[1px] border-[#0C0C0C1A] bg-[#0C0C0C05]">
                 <h4 className="font-medium font-helveticaNowDisplayBold text-xl tracking-tight">
-                  Delivery & follow-up
+                  Faithful Implementation
                 </h4>
                 <p className="text-[#0C0C0CA3] text-lg font-normal font-helveticaNowDisplayRegular">
-                  We execute the plans with precision, turning concepts into
-                  reality. Once the project is live, we don&apos;t just walk
-                  away; we follow up to ensure everything meets your
-                  expectations, and make any necessary adjustments to ensure
-                  flawless execution.
+                  We carry out the vision with care and excellence, always
+                  depending on God&apos;s grace for the outcome. After launching
+                  a ministry or program, we follow up to ensure it&apos;s
+                  bearing fruit and adjust as needed to serve more effectively.
                 </p>
                 <div className="w-full flex justify-end py-4 pt-6">
-                  <p className="font-helveticaNowDisplayBold text-5xl text-[#0C0C0C1A]">04</p>
+                  <p className="font-helveticaNowDisplayBold text-5xl text-[#0C0C0C1A]">
+                    04
+                  </p>
                 </div>
               </div>
               <div className="p-10 flex flex-col items-start gap-3  rounded-2xl border-[1px] border-[#0C0C0C1A] md:hidden bg-[#0C0C0C05]">
                 <h4 className="font-medium font-helveticaNowDisplayBold text-xl tracking-tight">
-                  Delivery & follow-up
+                  Faithful Implementation
                 </h4>
                 <p className="text-[#0C0C0CA3] text-lg font-normal font-helveticaNowDisplayRegular">
-                  We execute the plans with precision, turning concepts into
-                  reality. Once the project is live, we don&apos;t just walk
-                  away; we follow up to ensure everything meets your
-                  expectations, and make any necessary adjustments to ensure
-                  flawless execution.
+                  We carry out the vision with care and excellence, always
+                  depending on God&apos;s grace for the outcome. After launching
+                  a ministry or program, we follow up to ensure it&apos;s
+                  bearing fruit and adjust as needed to serve more effectively.
                 </p>
                 <div className="w-full flex justify-end py-4 pt-6">
-                  <p className="font-helveticaNowDisplayBold text-5xl text-[#0C0C0C1A]">04</p>
+                  <p className="font-helveticaNowDisplayBold text-5xl text-[#0C0C0C1A]">
+                    04
+                  </p>
                 </div>
               </div>
               <div className="p-10 flex flex-col items-start gap-3  rounded-2xl border-[1px] border-[#0C0C0C1A] bg-[#0C0C0C05]">
                 <h4 className="font-medium font-helveticaNowDisplayBold text-xl tracking-tight">
-                  Continuous partnership
+                  Ongoing Discipleship & Support
                 </h4>
                 <p className="text-[#0C0C0CA3] text-lg font-normal font-helveticaNowDisplayRegular">
-                  Our relationship doesn&apos;t end with delivery. We stay
-                  connected, providing ongoing support and collaboration. This
-                  stage is all about evolving together, keeping your brand ahead
-                  of the curve, and achieving sustained success.
+                  Our commitment doesn&apos;t end with execution. We walk
+                  alongside you in ongoing discipleship, prayer, and support.
+                  This stage is about growing together in Christ and continuing
+                  to impact lives for His glory.
                 </p>
                 <div className="w-full flex justify-end py-4 pt-6">
-                  <p className="font-helveticaNowDisplayBold text-5xl text-[#0C0C0C1A]">05</p>
+                  <p className="font-helveticaNowDisplayBold text-5xl text-[#0C0C0C1A]">
+                    05
+                  </p>
                 </div>
               </div>
             </div>

@@ -17,6 +17,19 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+
+.about-banner-bg {
+  background-image: url('../public/assets/about-banner.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.give-banner-bg {
+  background-image: url('../public/assets/give-hero-banner.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .bg-give-bg {
   background-image: url('../public/assets/hand.png');
   background-size: cover;

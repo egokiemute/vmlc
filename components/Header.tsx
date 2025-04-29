@@ -89,13 +89,13 @@ const Header = () => {
           text="Sermons"
           className={isActive("/sermon") ? "text-gray-400" : ""}
         />
-        <CustomLink
+        {/* <CustomLink
           href="/#contact"
           animate={true}
           text="Contact us"
           className={isActive("/contact") ? "text-gray-400" : ""}
-        />
-        <Link href="#" className="font-normal flex items-center">
+        /> */}
+        <Link href="/give" className="font-normal flex items-center">
           <Button
             text="Give"
             className={`w-[120px] h-10 rounded-full font-helveticaNowDisplayRegular whitespace-nowrap ${

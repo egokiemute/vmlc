@@ -8,21 +8,14 @@ const WhoWeAre = () => {
     <div className="pt-20 mt-20 mx-auto px-1">
       <div className="w-full mx-auto">
         <div className="flex flex-col gap-4 w-full font-neuehasslight">
-          <span className="text-sm text-gray-400 tracking-[2px] uppercase font-helveticaNowDisplayRegular">
-            What We Do
+          <span className="text-xs uppercase bg-gray-300/20 p-3 rounded-full w-fit">
+            🙌🏼 Our Approach
           </span>
           <hr className="text-gray-400 bg-gray-400" />
           <div className="py-2 flex items-center justify-between">
-            <h2 className="text-4xl font-semibold max-w-md mb-6 font-helveticaNowDisplayBold">
-              Building a strong brand with our expertise.
+            <h2 className="text-3xl font-semibold max-w-md mb-6 font-helveticaNowDisplayBold">
+              Celebrating endless life in Christ Jesus demands that you:
             </h2>
-            {/* <div>
-              <Button
-                text="See our services"
-                className="px-6 py-6 w-36 text-sm font-medium rounded-full whitespace-nowrap font-helveticaNowDisplayRegular hidden md:inline-block"
-                variant="outline"
-              />
-            </div> */}
           </div>
         </div>
         <div className="space-y-10 mt-10">
@@ -31,14 +24,12 @@ const WhoWeAre = () => {
             <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="p-8 md:p-12 flex flex-col items-start gap-3 bg-[#5975FF0D] rounded-sm">
                 <h4 className="font-medium font-helveticaNowDisplayBold text-xl tracking-wide text-nowrap">
-                  Full-service design agency
+                  Know it
                 </h4>
                 <p className="text-[#0C0C0CA3] text-base md:text-lg font-normal font-helveticaNowDisplayRegular">
-                  At South Circle, we merge expertise in design, technology, and
-                  psychology to craft strategies that drive measurable results.
-                  By carefully selecting clients who align with our mission, we
-                  focus on delivering distinct, quantifiable outcomes that fuel
-                  business growth.
+                  At Victory Mega Living Church, the word of God is emphasized
+                  to ensure every member knows and understands the lordship of
+                  Jesus, and experiences progress and joy in the faith.
                 </p>
                 <div className="w-full flex justify-end py-4 pt-6">
                   <Image
@@ -52,13 +43,13 @@ const WhoWeAre = () => {
               </div>
               <div className="p-8 md:p-12 flex flex-col items-start gap-3 bg-[#FF4A4A0D] rounded-sm">
                 <h4 className="font-medium font-helveticaNowDisplayBold text-xl tracking-wide">
-                  Design, development and marketing
+                  Live it
                 </h4>
                 <p className="text-[#0C0C0CA3] text-base md:text-lg font-normal font-helveticaNowDisplayRegular">
-                  We believe in long-term success, not just short-term wins. Our
-                  commitment goes beyond the launch—through continuous
-                  refinement and adaptation, we ensure your brand stays relevant
-                  and grows sustainably in an ever-evolving landscape.
+                  Your life should reflect the death and resurrection of Jesus
+                  Christ every single day. It&apos;s not enough to simply know
+                  that Jesus is Lord—you must live out that truth in everything
+                  you do.
                 </p>
                 <div className="w-full flex justify-end py-4 pt-6">
                   <Image
@@ -72,14 +63,12 @@ const WhoWeAre = () => {
               </div>
               <div className="p-8 md:p-12 flex flex-col items-start gap-3 bg-[#0ACC920D] rounded-sm">
                 <h4 className="font-medium font-helveticaNowDisplayBold text-xl tracking-wide text-nowrap">
-                  Smooth makes us worried
+                  Tell it
                 </h4>
                 <p className="text-[#0C0C0CA3] text-base md:text-lg font-normal font-helveticaNowDisplayRegular">
-                  We thrive on disruption. At South Circle, we don&apos;t shy
-                  away from friction—it&apos;s what fuels our creativity. By
-                  embracing challenges and clashing ideas, we provoke the energy
-                  needed to spark innovation and create transformative solutions
-                  for your business.
+                  Celebrating the finished work of Jesus means sharing it with
+                  the world. We are called to boldly proclaim His love and grace
+                  to as many people as we can.
                 </p>
                 <div className="w-full flex justify-end py-4 pt-6">
                   <Image
