@@ -1,14 +1,14 @@
 "use client";
 import AllMinistries from "@/components/AllMinistries";
-import GetInTouch from "@/components/GetInTouch";
+// import GetInTouch from "@/components/GetInTouch";
 import GiveSection from "@/components/GiveSection";
 import Hero from "@/components/Hero";
 // import Insights from "@/components/Insights";
 // import OurServices from "@/components/OurServices";
-import SelectedWorks from "@/components/SelectedWorks";
+// import SelectedWorks from "@/components/SelectedWorks";
 import SermonsBanner from "@/components/SermonsBanner";
 import WelcomeToChurch from "@/components/WelcomeToChurch";
-import { useEffect, useState } from "react";
+// import { useEffect, useState } from "react";
 
 export default function Home() {
   // const [loading, setLoading] = useState(true);

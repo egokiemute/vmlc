@@ -3,7 +3,7 @@
 // import ContactForm from "@/components/ContactForm";
 import AllMinistriesSermons from "@/components/AllMinistriesSermons";
 import ContactHero from "@/components/ContactHero";
-import FAQ from "@/components/FAQ";
+// import FAQ from "@/components/FAQ";
 import React from "react";
 
 const page = () => {

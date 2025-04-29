@@ -1,13 +1,13 @@
-import GetInTouch from "@/components/GetInTouch";
+// import GetInTouch from "@/components/GetInTouch";
 // import OurJourney from "@/components/OurJourney";
 import OurProcess from "@/components/OurProcess";
 import OurTeams from "@/components/OurTeams";
-import OurValues from "@/components/OurValues";
-import WhatWeDo from "@/components/WhatWeDo";
+// import OurValues from "@/components/OurValues";
+// import WhatWeDo from "@/components/WhatWeDo";
 import WhoWeAre from "@/components/WhoWeAre";
-import { Metadata } from "next";
+// import { Metadata } from "next";
 // import WhoWeAre from "@/components/WhoWeAre";
-import Image from "next/image";
+// import Image from "next/image";
 import React from "react";
 
 const page = () => {
