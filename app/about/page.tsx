@@ -14,12 +14,12 @@ const page = () => {
   return (
     <main className="mx-auto w-full overflow-hidden">
       {/* Hero Section */}
-      <div className="flex flex-col items-center justify-center text-center mb-20 mx-auto about-banner-bg w-full h-[400px] md:h-[800px] relative">
+      <div className="flex flex-col items-center justify-center text-center mb-20 mx-auto about-banner-bg w-full h-[650px] md:h-[800px] relative">
         <div className="flex flex-col gap-2 items-center justify-center">
           <span className="text-xs text-white uppercase bg-gray-300/20 p-3 rounded-full w-fit">
             🙌🏼 The Family
           </span>
-          <h1 className="w-full text-white mx-auto text-4xl text-start items-start md:text-7xl font-helveticaNowDisplayBold font-extrabold flex flex-col md:items-center md:text-center">
+          <h1 className="w-full text-white mx-auto text-5xl text-center items-center md:text-7xl font-helveticaNowDisplayBold font-extrabold flex flex-col md:items-center md:text-center">
             <span>In Christ, For</span>
             <span>Christ, With</span>
             <span>Joy.</span>
