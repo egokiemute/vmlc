@@ -19,7 +19,7 @@ const works: AllMinistries[] = [
     title: "Celebrating youthfulness",
     category: ["Visual Identity"],
     description: "Youth Ministry",
-    imageSrc: "/assets/selected/visha.jpg",
+    imageSrc: "/assets/selected/youthful.jpg",
     slug: "/",
   },
   {
@@ -27,7 +27,7 @@ const works: AllMinistries[] = [
     title: "Building souls",
     category: ["Visual Identity", "Brand Strategy"],
     description: "Evangelism Ministry",
-    imageSrc: "/assets/selected/xuse.webp",
+    imageSrc: "/assets/selected/souls.jpg",
     slug: "/",
   },
   {
@@ -35,7 +35,7 @@ const works: AllMinistries[] = [
     title: "Worship outreach",
     category: ["Visual Identity", "Brand Strategy"],
     description: "Ultimate Music Concert",
-    imageSrc: "/assets/selected/gamebox.webp",
+    imageSrc: "/assets/selected/worship.jpg",
     slug: "/",
   },
   // {
@@ -60,7 +60,7 @@ const AllMinistries = () => {
           </h1>
           <Link href="#">
             <Button
-              text="See all works"
+              text="View our works"
               className="w-44 h-12 py-2 text-center text-lg font-medium rounded-full whitespace-nowrap tracking-tight font-helveticaNowDisplayRegular hidden md:inline-block"
               variant="outline"
             />

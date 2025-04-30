@@ -19,7 +19,7 @@ const works: AllMinistries[] = [
     title: "Celebrating youthfulness",
     category: ["Visual Identity"],
     description: "Youth Ministry",
-    imageSrc: "/assets/selected/visha.jpg",
+    imageSrc: "/assets/selected/worship.jpg",
     slug: "/",
   },
   {
@@ -27,7 +27,7 @@ const works: AllMinistries[] = [
     title: "Building souls",
     category: ["Visual Identity", "Brand Strategy"],
     description: "Evangelism Ministry",
-    imageSrc: "/assets/selected/xuse.webp",
+    imageSrc: "/assets/selected/worship.jpg",
     slug: "/",
   },
   {
@@ -35,7 +35,7 @@ const works: AllMinistries[] = [
     title: "Worship outreach",
     category: ["Visual Identity", "Brand Strategy"],
     description: "Ultimate Music Concert",
-    imageSrc: "/assets/selected/gamebox.webp",
+    imageSrc: "/assets/selected/worship.jpg",
     slug: "/",
   },
   // {
@@ -53,7 +53,9 @@ const AllMinistriesSermons = () => {
     <section className="pt-24 md:mt-24 mx-auto px-4 md:px-10 pb-32">
       <div className="flex flex-col md:flex-row items-center gap-20 w-full mx-auto">
         <div className="flex flex-col items-center text-center gap-4 max-w-lg font-neuehasslight">
-          <span className="text-xs uppercase tracking-wider font-medium">Ministries</span>
+          <span className="text-xs uppercase tracking-wider font-medium">
+            Ministries
+          </span>
           <h1 className="text-4xl md:text-6xl font-bold font-helveticaNowDisplayBold max-w-lg">
             THERE&apos;S A PLACE FOR{" "}
             <span className="text-[#2e3b4d]">EVERYONE</span>
