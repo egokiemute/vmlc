@@ -78,13 +78,13 @@ const Header = () => {
           className={isActive("/") ? "text-gray-400" : ""}
         />
         <CustomLink
-          href="/#about"
+          href="/about"
           animate={true}
           text="About us"
           className={isActive("/about") ? "text-gray-400" : ""}
         />
         <CustomLink
-          href="/#sermons"
+          href="/sermons"
           animate={true}
           text="Sermons"
           className={isActive("/sermon") ? "text-gray-400" : ""}
@@ -125,12 +125,12 @@ const Header = () => {
           className="absolute top-24 right-0 left-0 h-[100vh] px-6 py-10 bg-white shadow-lg z-[9999] flex flex-col gap-6 items-start w-full"
         >
           <div className="border-[1px] border-gray-300 rounded-2xl px-10 pt-10 pb-14 flex flex-col gap-6 items-start w-full">
-            {["/#about", "/#ministries", "/#sermons"].map((href, index) => (
+            {["/about", "/sermons"].map((href, index) => (
               <Link
                 key={index}
                 href={href}
                 onClick={handleMenu}
-                className={`font-helveticaNowDisplayBold uppercase text-5xl text-black w-full pb-5 border-b-[1px] border-gray-300 ${isActive(href) ? "text-gray-400" : ""}`}
+                className={`font-helveticaNowDisplayBold uppercase text-4xl text-black w-full pb-5 border-b-[1px] border-gray-300 ${isActive(href) ? "text-gray-400" : ""}`}
                 style={{
                   opacity: 100,
                   transform: `translateY(${index * 10}px)`,
@@ -139,10 +139,10 @@ const Header = () => {
                 {href.replace("/", "").replace(/^\w/, (c) => c.toUpperCase())}
               </Link>
             ))}
-            <Link href="#" className="text-center flex items-center">
+            <Link href="/give" className="text-center flex items-center">
             <Button
               text="Give"
-              className={`w-[180px] h-20 rounded-full font-helveticaNowDisplayRegular text-lg whitespace-nowrap mt-6 ${
+              className={`w-[180px] h-20 rounded-full font-helveticaNowDisplayRegular text-xl font-bold whitespace-nowrap mt-6 ${
                 isActive("/give") ? "" : ""
               }`}
               variant="outline"
