@@ -15,26 +15,26 @@ interface Team {
 
 const teams: Team[] = [
   {
-    fullname: "Victor Ozoefe",
+    fullname: "Prophet William Marrion Branham",
     title: "Lead Pastor & Founder",
-    imageSrc: "/assets/team/chidera.jpg",
+    imageSrc: "/assets/team/william.jpg",
     // twitter: "https://x.com/chideranwanyemi",
     // linkedin: "https://www.linkedin.com/in/ozoofsouth/",
   },
-  {
-    fullname: "Michelle Ozoefe",
-    title: "Co-Pastor & Partner",
-    imageSrc: "/assets/team/oke.jpg",
-    // twitter: "https://x.com/Oakswood6",
-    // linkedin: "https://www.linkedin.com/in/oke-omorohwovo-41089515b/",
-  },
-  {
-    fullname: "Joseph Haruna",
-    title: "Pastor & Partner",
-    imageSrc: "/assets/team/nelson.jpg",
-    // twitter: "https://x.com/i_am_goldnelson",
-    // linkedin: "https://www.linkedin.com/in/gold-nelson/",
-  },
+  // {
+  //   fullname: "Michelle Ozoefe",
+  //   title: "Co-Pastor & Partner",
+  //   imageSrc: "/assets/team/oke.jpg",
+  //   // twitter: "https://x.com/Oakswood6",
+  //   // linkedin: "https://www.linkedin.com/in/oke-omorohwovo-41089515b/",
+  // },
+  // {
+  //   fullname: "Joseph Haruna",
+  //   title: "Pastor & Partner",
+  //   imageSrc: "/assets/team/nelson.jpg",
+  //   // twitter: "https://x.com/i_am_goldnelson",
+  //   // linkedin: "https://www.linkedin.com/in/gold-nelson/",
+  // },
 ];
 
 const OurTeams = () => {
@@ -60,7 +60,7 @@ const OurTeams = () => {
                 alt={team.title || ""}
                 width={1000}
                 height={240}
-                className="object-cover h-[400px] rounded-2xl"
+                className="object-cover grayscale h-[400px] rounded-2xl"
               />
               <div className="my-3">
                 <h3 className="text-lg font-semibold truncate font-helveticaNowDisplayBold">

@@ -27,7 +27,7 @@ const WhoWeAre = () => {
                   Know it
                 </h4>
                 <p className="text-[#0C0C0CA3] text-base md:text-lg font-normal font-helveticaNowDisplayRegular">
-                  At Victory Mega Living Church, the word of God is emphasized
+                  At Omega Living Bridge Tabernacle, the word of God is emphasized
                   to ensure every member knows and understands the lordship of
                   Jesus, and experiences progress and joy in the faith.
                 </p>

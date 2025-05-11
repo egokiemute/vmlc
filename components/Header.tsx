@@ -56,18 +56,20 @@ const Header = () => {
   return (
     <div className="flex justify-between items-center py-6 bg-transparent w-full px-4 md:px-10 bg-white fixed left-0 right-0 z-[999]">
       <Link href="/" className="hidden md:inline-block">
-        <img
-          src="/logo.png"
-          alt="VMLC"
-          className="w-12 h-12"
-        />
+        <div className="flex items-center gap-2">
+          <img src="/logo.png" alt="VMLC" className="w-12 h-12" />
+          <h1 className="text-[#0C0C0CB0] text-xl font-helveticaNowDisplayBold hidden md:inline-block">
+            Omege Living Bridge Tabernacle
+          </h1>
+        </div>
       </Link>
       <Link href="/" className="inline-block md:hidden">
-        <img
-          src="/logo.png"
-          alt="VMLC"
-          className="w-12 h-12"
-        />
+        <div className="flex items-center gap-2">
+          <img src="/logo.png" alt="VMLC" className="w-12 h-12" />
+          <h1 className="text-[#0C0C0CB0] text-xl font-helveticaNowDisplayBold hidden md:inline-block">
+            Omege Living Bridge Tabernacle
+          </h1>
+        </div>
       </Link>
       <div className="md:flex flex-row items-center gap-6 relative font-helveticaNowDisplayRegular hidden">
         {/* Add active class based on the current route */}
@@ -140,16 +142,15 @@ const Header = () => {
               </Link>
             ))}
             <Link href="/give" className="text-center flex items-center">
-            <Button
-              text="Give"
-              className={`w-[180px] h-20 rounded-full font-helveticaNowDisplayRegular text-xl font-bold whitespace-nowrap mt-6 ${
-                isActive("/give") ? "" : ""
-              }`}
-              variant="outline"
-            />
-          </Link>
+              <Button
+                text="Give"
+                className={`w-[180px] h-20 rounded-full font-helveticaNowDisplayRegular text-xl font-bold whitespace-nowrap mt-6 ${
+                  isActive("/give") ? "" : ""
+                }`}
+                variant="outline"
+              />
+            </Link>
           </div>
-          
         </div>
       )}
     </div>

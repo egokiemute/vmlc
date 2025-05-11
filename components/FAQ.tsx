@@ -36,7 +36,7 @@ const faqs: FAQ[] = [
   {
     question: "Who do I contact with my questions?",
     answer:
-      "If you have any questions about giving, please reach out to our Giving Team at givings@vomg.org or call us at +2349019434343. We’re here to assist and ensure that your giving experience at Victory Omega Church is seamless and meaningful.",
+      "If you have any questions about giving, please reach out to our Giving Team at givings@vomg.org or call us at +2349019434343. We’re here to assist and ensure that your giving experience at Omega Living Bridge Tabernacle is seamless and meaningful.",
   }
 ];
 

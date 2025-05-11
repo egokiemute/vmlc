@@ -8,7 +8,7 @@ const GiveSection = () => {
       <div className="absolute inset-0 bg-[#F8EAEA] rounded-3xl bg-give-bg bg-cover shadow-lg bg-center bg-no-repeat h-[320px] pt-12 pl-10 pb-10 max-w-6xl mx-auto z-10">
         <div className="flex flex-col items-start">
           <h2 className="text-4xl md:text-5xl font-bold font-helveticaNowDisplayBold mb-2">
-            Give to Victory Mega Living Church
+            Give to Omega Living Bridge Tabernacle
           </h2>
           <p className="text-xl font-medium mb-8">
             Your generousity keeps blessing lives, thank you for giving.

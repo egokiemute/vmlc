@@ -12,7 +12,7 @@ const Footer = () => {
             Imagine More.
           </div> */}
           <Image className="bg-transparent" src="/logo.png" alt="imagine more" width={100} height={100}/>
-          <span className="font-medium">Victory Mega Living Church (VMLC)</span>
+          <span className="font-medium">Omega Living Bridge Tabernacle</span>
         </div>
         <div className="flex flex-col gap-4 align-top items-start">
           <h4 className="text-[#0C0C0CB0] font-medium text-base font-helveticaNowDisplayRegular">
@@ -21,61 +21,37 @@ const Footer = () => {
           <div className="flex flex-col gap-5 items-start font-helveticaNowDisplayRegular">
             <div className="flex flex-col gap-2 items-start font-medium">
               <CustomLink
-                href="tel:+2349063288657"
+                href="tel:+2347045348482"
                 animate={false}
-                text="+23490-6328-8657"
+                text="+2347045348482"
               />
               <CustomLink
-                href="mailto:hello@vmlc.org"
+                href="mailto:hello@omegalivingbride.com"
                 animate={false}
-                text="hello@vmlc.org"
+                text="hello@omegalivingbride.com"
                 className="border-b-[0.2px] border-[#919191b0] text-[#0C0C0CB0]"
               />
             </div>
             <div className="max-w-sm text-start font-helveticaNowDisplayRegular">
-              <p>Okumagba Avenue, </p>
-              <p>Opposite Dudu Block, Estate,</p>
+              <p>11 Ejoyokah Street, Jakpa Rd, Tori, </p>
+              <p>Effurun 330102, Delta</p>
             </div>
           </div>
         </div>
         <div className="flex flex-col gap-4 align-top items-start">
-          <h4 className="text-[#0C0C0CA3] text-base font-helveticaNowDisplayRegular">Links</h4>
+          <h4 className="text-[#0C0C0CA3] text-base font-helveticaNowDisplayRegular">Socials</h4>
           <div className="flex flex-col gap-5 items-start">
             <div className="flex flex-col gap-2 items-start font-helveticaNowDisplayRegular">
               <CustomLink
-                href="linkedin.com"
+                href="https://www.youtube.com/@OmegaLivingBrideTabernacle"
                 animate={true}
-                text="LinkedIn"
+                text="YouTube"
                 className="border-b-[0.2px] border-[#919191b0]"
               />
               <CustomLink
-                href="instagram.com"
-                animate={true}
-                text="Instagram"
-                className="border-b-[0.2px] border-[#919191b0]"
-              />
-              <CustomLink
-                href="twiiter.com"
-                animate={true}
-                text="Twitter"
-                className="border-b-[0.2px] border-[#919191b0]"
-              />
-              <CustomLink
-                href="facebook.com"
+                href="https://www.facebook.com/profile.php?id=100064929420548"
                 animate={true}
                 text="Facebook"
-                className="border-b-[0.2px] border-[#919191b0]"
-              />
-              <CustomLink
-                href="behance.com"
-                animate={true}
-                text="Behance"
-                className="border-b-[0.2px] border-[#919191b0]"
-              />
-              <CustomLink
-                href="dribbble.com"
-                animate={true}
-                text="Dribbble"
                 className="border-b-[0.2px] border-[#919191b0]"
               />
             </div>
@@ -86,39 +62,21 @@ const Footer = () => {
           <div className="flex flex-col gap-5 items-start">
             <div className="flex flex-col gap-2 items-start font-helveticaNowDisplayRegular">
               <CustomLink
-                href="linkedin.com"
+                href="/about"
                 animate={true}
-                text="LinkedIn"
+                text="About us"
                 className="border-b-[0.2px] border-[#919191b0]"
               />
               <CustomLink
-                href="instagram.com"
+                href="/sermons"
                 animate={true}
-                text="Instagram"
+                text="Sermons"
                 className="border-b-[0.2px] border-[#919191b0]"
               />
               <CustomLink
-                href="twiiter.com"
+                href="/give"
                 animate={true}
-                text="Twitter"
-                className="border-b-[0.2px] border-[#919191b0]"
-              />
-              <CustomLink
-                href="facebook.com"
-                animate={true}
-                text="Facebook"
-                className="border-b-[0.2px] border-[#919191b0]"
-              />
-              <CustomLink
-                href="behance.com"
-                animate={true}
-                text="Behance"
-                className="border-b-[0.2px] border-[#919191b0]"
-              />
-              <CustomLink
-                href="dribbble.com"
-                animate={true}
-                text="Dribbble"
+                text="Give"
                 className="border-b-[0.2px] border-[#919191b0]"
               />
             </div>
@@ -128,12 +86,10 @@ const Footer = () => {
       <hr className="bg-[#000] text-black" />
       <div className="flex flex-col-reverse md:flex-row gap-6 items-center justify-between w-full py-4 pb-12 font-helveticaNowDisplayRegular tracking-wide">
         <div className="flex flex-col  md:flex-row items-center gap-5 text-[#0C0C0CB0]">
-          <p>&copy; {year} Victory Mega Living Church, All right reserved.</p>
+          <p>&copy; {year} Omega Living Bridge Tabernacle, All right reserved.</p>
         </div>
-        <div className="flex items-center gap-6 text-[#0C0C0CB0]">
-          <CustomLink href="/facebook.com" animate={true} text="Facebook" />
-          <CustomLink href="/instagram.com" animate={true} text="Instagram" />
-          <CustomLink href="/youtube.com" animate={true} text="YouTube" />
+        <div className="flex items-center gap-6 text-sm text-[#0C0C0CB0]">
+          <CustomLink href="https://kodenigga.vercel.app" animate={true} text="Developed by egokiemute" />
         </div>
       </div>
     </footer>

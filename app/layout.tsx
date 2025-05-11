@@ -17,23 +17,23 @@ const HelveticaNowDisplayBold = localFont({
 
 // app/layout.js or app/page.js
 export const metadata: Metadata = {
-  title: "Victory Mega Living Church",
-  keywords: ["Victory Mega Living Church", "Church", "Christianity", "Faith"],
-  description: "Victory Mega Living Church is a vibrant community of believers dedicated to spreading the message of hope and love.",
-  authors: [{ name: "Victory Mega Living Church" }],
+  title: "Omega Living Bridge Tabernacle",
+  keywords: ["Omega Living Bridge Tabernacle", "Church", "Christianity", "Faith"],
+  description: "Omega Living Bridge Tabernacle is a vibrant community of believers dedicated to spreading the message of hope and love.",
+  authors: [{ name: "Omega Living Bridge Tabernacle" }],
   icons: {
     icon: "/favicon.ico",
   },
   openGraph: {
-    title: "Victory Mega Living Church",
-    description: "Victory Mega Living Church is a vibrant community of believers dedicated to spreading the message of hope and love.",
-    url: "https://vmlc.org",  // Replace with your actual URL
+    title: "Omega Living Bridge Tabernacle",
+    description: "Omega Living Bridge Tabernacle is a vibrant community of believers dedicated to spreading the message of hope and love.",
+    url: "https://www.omegalivingbride.com",  // Replace with your actual URL
     images: [
       {
-        url: "https://vmlc.vercel.app/thumbnail.png", // Replace with actual image URL
+        url: "https://www.omegalivingbride.com/favicon.ico", // Replace with actual image URL
         width: 1200,
         height: 630,
-        alt: "Victory Mega Living Church",
+        alt: "Omega Living Bridge Tabernacle",
       },
     ],
   }
