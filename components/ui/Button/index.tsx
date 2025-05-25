@@ -17,7 +17,7 @@ const Button: React.FC<ButtonProps> = ({
   className,
 }) => {
   const baseClasses = {
-    primary: 'bg-blue-500 text-white border-transparent mx-auto',
+    primary: 'bg-yellow-800 text-white border-transparent mx-auto',
     secondary: 'bg-gray-500 text-white border-transparent',
     outline: 'bg-white text-black border-black mx-auto',
   };
@@ -49,7 +49,7 @@ const Button: React.FC<ButtonProps> = ({
       {/* Second span: Comes from the bottom */}
       <span
         className={clsx(
-          'absolute inset-0 bg-black text-white flex items-center justify-center transition-transform duration-500 ease-in-out transform translate-y-full rounded-full',
+          'absolute inset-0 bg-yellow-800 text-white flex items-center justify-center transition-transform duration-500 ease-in-out transform translate-y-full rounded-full',
           {
             'group-hover:translate-y-0': variant === 'outline' || variant === 'primary',
           }

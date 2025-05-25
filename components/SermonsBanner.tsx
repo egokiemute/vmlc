@@ -4,9 +4,9 @@ import Button from "./ui/Button";
 
 const SermonsBanner = () => {
   return (
-    <section className="relative pt-24 md:mt-24 mx-auto px-4 md:px-10 h-[400px] md:h-[600px] sermons-banner-bg w-full">
+    <section className="relative pt-24 md:mt-24 mx-auto px-4 md:px-10 h-[400px] md:h-[600px] sermons-banner-bg  filter sepia contrast-100 brightness-80  w-full">
       {/* Dark overlay */}
-      <div className="absolute inset-0 bg-black bg-opacity-60 z-10"></div>
+      <div className="absolute inset-0 mix-blend-overlay bg-black bg-opacity-60 z-10"></div>
 
       {/* Bottom-left text */}
       <div className="absolute bottom-10 left-6 md:left-10 z-20 text-white max-w-xl">

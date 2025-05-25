@@ -10,7 +10,21 @@
   font-weight: 400;
   src: url('../public/fonts/HelveticaNowDisplay-Regular.woff') format('ttf'), url('../public/fonts/HelveticaNowDisplay-Bold.woff') format('woff');
 }
-
+.main-hero-banner {
+  position: relative;
+  overflow: hidden;
+}
+.main-hero-banner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url('../public/assets/main-hero-banner.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: sepia(1) contrast(0.8) brightness(0.8);
+  z-index: -1;
+}
 .sermons-banner-bg {
   background-image: url('../public/assets/family.jpg');
   background-size: cover;

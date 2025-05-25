@@ -75,7 +75,7 @@ const AllMinistries = () => {
                   <Image
                     src={work.imageSrc}
                     alt={work.title}
-                    className="object-cover hover:scale-110 h-full transition-all ease-in-out duration-500"
+                    className="object-cover filter sepia contrast-100 brightness-80 mix-blend-color-dodge hover:scale-110 h-full transition-all ease-in-out duration-500"
                     width={400}
                     height={320}
                   />

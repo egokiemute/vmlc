@@ -88,7 +88,7 @@ const WelcomeToChurch = () => {
                   <Image
                     src={work.imageSrc}
                     alt={work.title}
-                    className="object-cover hover:scale-110 h-full transition-all ease-in-out duration-500"
+                    className="object-cover hover:scale-110 h-full transition-all ease-in-out duration-500 filter sepia contrast-100 brightness-80"
                     width={1000}
                     height={500}
                   />

@@ -24,13 +24,13 @@ const config = {
     },
     extend: {
       fontFamily: {
-        helveticaNowDisplayRegular: 'var(--font-helveticaNowDisplayRegular)',
-        helveticaNowDisplayBold: 'var(--font-helveticaNowDisplayBold)',
+        helveticaNowDisplayRegular: "var(--font-helveticaNowDisplayRegular)",
+        helveticaNowDisplayBold: "var(--font-helveticaNowDisplayBold)",
       },
       fontSmoothing: {
         antialiased: {
-          '-webkit-font-smoothing': 'antialiased',
-          '-moz-osx-font-smoothing': 'grayscale',
+          "-webkit-font-smoothing": "antialiased",
+          "-moz-osx-font-smoothing": "grayscale",
         },
       },
       colors: {
@@ -45,7 +45,7 @@ const config = {
           100: "#BEC1DD",
           200: "#C1C2D3",
         },
-        
+        primary: "#a07b55",
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -53,7 +53,7 @@ const config = {
         sm: "calc(var(--radius) - 4px)",
       },
       trackingSpace: {
-        wide: "tracking-[2px]"
+        wide: "tracking-[2px]",
       },
       keyframes: {
         "accordion-down": {
