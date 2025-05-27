@@ -1,5 +1,6 @@
 // import GetInTouch from "@/components/GetInTouch";
 // import OurJourney from "@/components/OurJourney";
+import Footer from "@/components/Footer";
 import OurProcess from "@/components/OurProcess";
 import OurTeams from "@/components/OurTeams";
 // import OurValues from "@/components/OurValues";
@@ -16,14 +17,17 @@ const page = () => {
       {/* Hero Section */}
       <div className="flex flex-col items-center justify-center text-center mb-20 mx-auto about-banner-bg w-full h-[650px] md:h-[800px] relative">
         <div className="flex flex-col gap-2 items-center justify-center">
-          <span className="text-xs text-white uppercase bg-gray-300/20 p-3 rounded-full w-fit">
+          {/* <span className="text-xs text-white uppercase bg-gray-300/20 p-3 rounded-full w-fit">
             🙌🏼 The Family
-          </span>
+          </span> */}
           <h1 className="w-full text-white mx-auto text-5xl text-center items-center md:text-7xl font-helveticaNowDisplayBold font-extrabold flex flex-col md:items-center md:text-center">
-            <span>In Christ, For</span>
-            <span>Christ, With</span>
-            <span>Joy.</span>
+            <span>Preparing For</span>
+            <span>The End</span>
+            <span>Time.</span>
           </h1>
+          <span className="text-xs text-white uppercase bg-gray-300/20 p-3 rounded-full w-fit">
+           Welcome
+          </span>
         </div>
       </div>
       <div className="container mx-auto px-4 md:px-10">
@@ -31,9 +35,11 @@ const page = () => {
         {/* <WhatWeDo /> */}
         <WhoWeAre />
         {/* <OurValues /> */}
-        <OurProcess />
+        {/* <OurProcess /> */}
         <OurTeams />
       </div>
+      <Footer />
+      {/* <GetInTouch /> */}
     </main>
   );
 };

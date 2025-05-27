@@ -2,10 +2,16 @@ import React from "react";
 import CustomLink from "./ui/Link";
 import Image from "next/image";
 
-const Footer = () => {
+interface FooterProps {
+  showFooter?: boolean;
+}
+
+const Footer = ({ showFooter = true }: FooterProps) => {
   const year = new Date().getFullYear();
   return (
-    <footer className="space-y-8 pt-20 bg-primary w-full px-4 md:px-10">
+    <>
+    {showFooter && (
+      <footer className="space-y-8 pt-20 bg-primary w-full px-4 md:px-10">
       <div className="text-white flex flex-col md:flex-row gap-10 items-start md:items-center justify-between w-full">
         <div className="flex flex-col items-start justify-start md:items-center md:justify-center md:text-center gap-2">
           {/* <div className="text-[80px] md:text-8xl font-bold uppercase tracking-wide text-center font-baseneue w-full leading-none">
@@ -94,6 +100,8 @@ const Footer = () => {
         </div>
       </div>
     </footer>
+    )}
+    </>
   );
 };
 

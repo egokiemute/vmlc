@@ -50,18 +50,18 @@ const works: AllMinistries[] = [
 
 const AllMinistries = () => {
   return (
-    <section className="pt-24 md:mt-24 mx-auto px-4 md:px-10">
+    <section className="md:mt-24 mx-auto px-4 md:px-10 pb-20">
       <div className="flex flex-col md:flex-row items-center gap-20 w-full mx-auto">
         <div className="flex flex-col items-center text-center gap-4 max-w-lg font-neuehasslight">
-          <span className="text-xs uppercase tracking-wider font-medium">Ministries</span>
+          <span className="text-xs uppercase tracking-wider font-medium">Featured Sermons</span>
           <h1 className="text-4xl md:text-6xl font-bold font-helveticaNowDisplayBold max-w-lg">
             THERE&apos;S A PLACE FOR{" "}
             <span className="text-[#2e3b4d]">EVERYONE</span>
           </h1>
           <Link href="#">
             <Button
-              text="View our works"
-              className="w-44 h-12 py-2 text-center text-lg font-medium rounded-full whitespace-nowrap tracking-tight font-helveticaNowDisplayRegular hidden md:inline-block"
+              text="View more sermons"
+              className="w-48 h-12 py-2 text-center text-lg font-medium rounded-full whitespace-nowrap tracking-tight font-helveticaNowDisplayRegular hidden md:inline-block"
               variant="outline"
             />
           </Link>
@@ -75,7 +75,7 @@ const AllMinistries = () => {
                   <Image
                     src={work.imageSrc}
                     alt={work.title}
-                    className="object-cover filter sepia contrast-100 brightness-80 mix-blend-color-dodge hover:scale-110 h-full transition-all ease-in-out duration-500"
+                    className="object-cover filter sepia contrast-100 brightness-80  hover:scale-110 h-full transition-all ease-in-out duration-500"
                     width={400}
                     height={320}
                   />

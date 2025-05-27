@@ -5,7 +5,7 @@ import Button from "./ui/Button";
 const GiveSection = () => {
   return (
     <section className="relative pt-24 md:mt-24 mx-auto px-4 md:px-10 h-[400px] md:h-[400px] give-bg w-full -bottom-28">
-      <div className="absolute inset-0 bg-[#F8EAEA] rounded-3xl bg-give-bg bg-cover shadow-lg bg-center bg-no-repeat h-[320px] pt-12 pl-10 pb-10 max-w-6xl mx-auto z-10">
+      <div className="absolute inset-0 bg-[#f7f0e8] rounded-3xl bg-give-bg bg-cover shadow-lg bg-center bg-no-repeat h-[320px] pt-12 pl-10 pb-10 max-w-6xl mx-auto z-10">
         <div className="flex flex-col items-start">
           <h2 className="text-4xl md:text-5xl font-bold font-helveticaNowDisplayBold mb-2">
             Give to Omega Living Bridge Tabernacle

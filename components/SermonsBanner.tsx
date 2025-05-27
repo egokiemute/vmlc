@@ -17,7 +17,7 @@ const SermonsBanner = () => {
           Be inspired by powerful messages of faith and hope from our Pastor and
           get filled and transformed.
         </p>
-        <Link href="/">
+        <Link href="/sermons">
           <Button
             text="See all sermons"
             className="w-44 h-12 py-2 text-center text-lg font-medium rounded-full whitespace-nowrap tracking-tight font-helveticaNowDisplayRegular hidden md:inline-block"

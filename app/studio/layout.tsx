@@ -1,10 +1,11 @@
+import Footer from "@/components/Footer";
 import { Metadata } from "next/types";
 
 export const metadata: Metadata = {
-  title: "SouthCircle - CMS",
-  description: "Welcome to SouthCircle.",
+  title: "Omega Living Bride Tabernacle - CMS",
+  description: "Welcome to your Dashboard.",
   icons: {
-    icon: "/favicon.png",
+    icon: "/logo.png",
   },
 };
 
@@ -14,8 +15,11 @@ export default function StudioLayout({
   children: React.ReactNode;
 }) {
   return (
-    <main className="z-20 relative">
-      <div>{children}</div>
-    </main>
+    <>
+      <main className="z-20 relative mb-32 mt-12">
+        <div>{children}</div>
+      </main>
+      <Footer showFooter={false} />
+    </>
   );
 }

@@ -67,11 +67,6 @@ export default defineType({
       title: 'Published at',
       type: 'date',
     }),
-    defineField({
-      name: 'body',
-      title: 'Body',
-      type: 'blockContent',
-    }),
     // Video field definition
     defineField({
       name: 'mediaSrc',
@@ -93,14 +88,41 @@ export default defineType({
         }
       ]
     }),
+    // Audio field definition
+    defineField({
+      name: 'audioSrc',
+      title: 'Audio',
+      type: 'file',
+      options: {
+        accept: 'audio/*'
+      },
+      fields: [
+        {
+          name: 'title',
+          type: 'string',
+          title: 'Audio Title',
+        },
+        {
+          name: 'description',
+          type: 'text',
+          title: 'Audio Description',
+        },
+        {
+          name: 'duration',
+          type: 'string',
+          title: 'Duration',
+          description: 'Audio duration (e.g., "5:32")',
+        }
+      ]
+    }),
   ],
 
   preview: {
     select: {
       title: 'title',
       author: 'author.name',
-      media: 'mainImage' || 'mediaSrc',
-    },
+      media: 'mainImage',
+      },
     prepare(selection) {
       const {author} = selection
       return {...selection, subtitle: author && `by ${author}`}

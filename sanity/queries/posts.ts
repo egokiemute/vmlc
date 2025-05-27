@@ -15,6 +15,10 @@ export type Post = {
   comingSoon: string;
   imageUrl: string;
   mediaSrc: string;
+  audioSrc?: string; // Add audioSrc field
+  audioTitle?: string; // Add audio title field
+  audioDescription?: string; // Add audio description field
+  audioDuration?: string; // Add audio duration field
   publishedAt: string;
   mediaType: string;
   videoUrl?: string; // Add videoUrl field
@@ -30,6 +34,10 @@ const getPostsQuery = groq`*[_type == "post"]{
   "author": author->name,
   "imageUrl": mainImage.asset->url,
   "mediaSrc": mediaSrc.asset->url,
+  "audioSrc": audioSrc.asset->url,
+  "audioTitle": audioSrc.title,
+  "audioDescription": audioSrc.description,
+  "audioDuration": audioSrc.duration,
   "categories": categories[]->{title},
   mediaType,
   publishedAt,
@@ -49,7 +57,11 @@ const getPostDetailQuery = groq`*[_type == "post"][slug.current == $slug][0]{
   "author": author->name,
   "imageUrl": mainImage.asset->url,
   "categories": categories[]->{title},
-  "mediaSrc": mediaSrc.asset->url, // Add videoUrl to the query
+  "mediaSrc": mediaSrc.asset->url,
+  "audioSrc": audioSrc.asset->url,
+  "audioTitle": audioSrc.title,
+  "audioDescription": audioSrc.description,
+  "audioDuration": audioSrc.duration,
   publishedAt,
   mediaType,
   body,

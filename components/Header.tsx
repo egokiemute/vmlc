@@ -54,7 +54,7 @@ const Header = () => {
   }, [toggle]);
 
   return (
-    <div className="flex justify-between items-center py-6 bg-transparent w-full px-4 md:px-10 bg-white fixed left-0 right-0 z-[999]">
+    <div className="flex justify-between items-center py-6 bg-[#f7f0e8] w-full px-4 md:px-10 fixed left-0 right-0 z-[999]">
       <Link href="/" className="hidden md:inline-block">
         <div className="flex items-center gap-2">
           <img src="/logo.png" alt="VMLC" className="w-12 h-12" />
@@ -100,7 +100,7 @@ const Header = () => {
         <Link href="/give" className="font-normal flex items-center">
           <Button
             text="Give"
-            className={`w-[120px] h-10 rounded-full font-helveticaNowDisplayRegular whitespace-nowrap ${
+            className={`w-[120px] h-10 rounded-lg font-helveticaNowDisplayRegular whitespace-nowrap ${
               isActive("#") ? "" : ""
             }`}
             variant="outline"

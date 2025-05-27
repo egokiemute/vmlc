@@ -1,8 +1,10 @@
 "use client";
 import AllMinistries from "@/components/AllMinistries";
+import Footer from "@/components/Footer";
 // import GetInTouch from "@/components/GetInTouch";
 import GiveSection from "@/components/GiveSection";
 import Hero from "@/components/Hero";
+import PreviousWorks from "@/components/PreviousWorks";
 // import Insights from "@/components/Insights";
 // import OurServices from "@/components/OurServices";
 // import SelectedWorks from "@/components/SelectedWorks";
@@ -42,13 +44,15 @@ export default function Home() {
     <>
       <Hero />
       <WelcomeToChurch />
+      <PreviousWorks />
+      <AllMinistries />
       <SermonsBanner />
       {/* <SelectedWorks /> */}
       {/* <OurServices /> */}
       {/* <Insights /> */}
       {/* <GetInTouch /> */}
-      <AllMinistries />
-      <GiveSection />
+      {/* <GiveSection /> */}
+      <Footer />
     </>
   );
 }

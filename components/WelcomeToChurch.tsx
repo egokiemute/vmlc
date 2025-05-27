@@ -16,28 +16,28 @@ interface SelectedWorks {
 const works: SelectedWorks[] = [
   {
     id: 1,
-    title: "Outreach program",
-    category: ["Outreach"],
-    description: "We are a family rooted in Christ love.",
+    title: "About Omega Living Bride Tabernacle",
+    category: ["Vision"],
+    description: "Mission, To prepare, purify and position the Bride of Jesus Christ for His imminent return.",
     imageSrc: "/assets/selected/outreach.jpg",
-    slug: "/",
+    slug: "/about",
   },
-  {
-    id: 2,
-    title: "Youth program",
-    category: ["Evangelism"],
-    description: "Raising a generation of believers.",
-    imageSrc: "/assets/selected/youth.jpg",
-    slug: "/",
-  },
-  {
-    id: 3,
-    title: "Teenage program",
-    category: ["Champions"],
-    description: "Building a generation of champions.",
-    imageSrc: "/assets/selected/teenage.jpg",
-    slug: "/",
-  },
+  // {
+  //   id: 2,
+  //   title: "Youth program",
+  //   category: ["Evangelism"],
+  //   description: "Raising a generation of believers.",
+  //   imageSrc: "/assets/selected/youth.jpg",
+  //   slug: "/",
+  // },
+  // {
+  //   id: 3,
+  //   title: "Teenage program",
+  //   category: ["Champions"],
+  //   description: "Building a generation of champions.",
+  //   imageSrc: "/assets/selected/teenage.jpg",
+  //   slug: "/",
+  // },
   // {
   //   id: 4,
   //   title: "Coming Soon...",
@@ -51,36 +51,25 @@ const works: SelectedWorks[] = [
 const WelcomeToChurch = () => {
   return (
     <section className="pt-24 md:mt-24 mx-auto px-4 md:px-10">
-      <div className="w-full mx-auto">
-        <div className="flex flex-col gap-4 w-full font-neuehasslight">
+      <div className="flex flex-col md:flex-row items-center gap-4 w-full mx-auto">
+        <div className="flex flex-col items-center text-center gap-4 w-full font-neuehasslight">
           <span className="text-xs uppercase bg-gray-300/20 p-3 rounded-full w-fit">
-            🙌🏼 Our mandate
+            🙌🏼 Our message
           </span>
           <h1 className="text-4xl md:text-5xl font-bold font-helveticaNowDisplayBold max-w-lg">
-            We are a family rooted in Christ love.
+            The Voice That Foreruns His Coming.
           </h1>
-          <p className="font-normal text-lg sm:text-xl md:text-xl text-[#0C0C0CB0] mb-10 font-helveticaNowDisplayRegular px-2 max-w-xl">
-            Unveiling kingdom mysteries, preparing for the Rapture by the
-            messages brought by the Prophet William Maroon Branham.
+          <p className="font-normal text-lg sm:text-xl md:text-xl text-[#0C0C0CB0] mb-4 font-helveticaNowDisplayRegular px-2 max-w-xl">
+            We are a Message-believing church rooted in the teachings of William
+            Marrion Branham, called out as
           </p>
-          <hr className="text-gray-400 bg-gray-400" />
-          <div className="py-2 flex items-center justify-between w-full">
-            {/* <h2 className="text-2xl md:text-3xl font-semibold font-helveticaNowDisplayBold">
-              Selected Works
-            </h2>
-            <div>
-              <Link href="/works">
-                <Button
-                  text="See all works"
-                  className="w-44 h-12 py-2 text-center text-lg font-medium rounded-full whitespace-nowrap tracking-tight font-helveticaNowDisplayRegular hidden md:inline-block"
-                  variant="outline"
-                />
-              </Link>
-            </div> */}
+          <div className="py-2 flex items-center font-helveticaNowDisplayRegular text-lg italic max-w-sm mx-auto p-8 border border-black/20 rounded-lg">
+            &quot;The Message will forerun the second coming, just as John
+            forerun the First Coming&quot;
           </div>
         </div>
         {/* Grid layout for work items */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-20 gap-6 w-full mt-10">
+        <div className="w-full">
           {works.map((work, index) => (
             <Link key={index} href={`${work.slug || "/"}`}>
               <div className="w-full">

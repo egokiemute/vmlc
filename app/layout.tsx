@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Header from "@/components/Header";
 import localFont from "next/font/local";
-import Footer from "@/components/Footer";
 import "./globals.css";
 
 
@@ -48,7 +47,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${HelveticaNowDisplayRegular.variable} ${HelveticaNowDisplayBold.variable} antialiased`}
+        className={`${HelveticaNowDisplayRegular.variable} ${HelveticaNowDisplayBold.variable} antialiased bg-[#f7f0e8]`}
       >
         <Header />
         {/* <SmoothScroll> */}
@@ -56,7 +55,6 @@ export default function RootLayout({
             {children}
           </main>
         {/* </SmoothScroll> */}
-        <Footer />
       </body>
     </html>
   );

@@ -17,9 +17,9 @@ const Button: React.FC<ButtonProps> = ({
   className,
 }) => {
   const baseClasses = {
-    primary: 'bg-yellow-800 text-white border-transparent mx-auto',
+    primary: 'bg-[#382b1b] text-white border-transparent mx-auto',
     secondary: 'bg-gray-500 text-white border-transparent',
-    outline: 'bg-white text-black border-black mx-auto',
+    outline: 'bg-[#dbcebd] text-[#382b1b] mx-auto',
   };
 
   return (
@@ -27,7 +27,7 @@ const Button: React.FC<ButtonProps> = ({
       onClick={onClick}
       disabled={disabled}
       className={clsx(
-        'relative overflow-hidden transition-all duration-300 border group',
+        'relative overflow-hidden transition-all duration-300 group',
         className, // This handles custom padding and other styles
         baseClasses[variant]
       )}
@@ -49,7 +49,7 @@ const Button: React.FC<ButtonProps> = ({
       {/* Second span: Comes from the bottom */}
       <span
         className={clsx(
-          'absolute inset-0 bg-yellow-800 text-white flex items-center justify-center transition-transform duration-500 ease-in-out transform translate-y-full rounded-full',
+          'absolute inset-0 bg-[#c9a77a] text-[#382b1b] flex items-center justify-center transition-transform duration-500 ease-in-out transform translate-y-full rounded-lg',
           {
             'group-hover:translate-y-0': variant === 'outline' || variant === 'primary',
           }

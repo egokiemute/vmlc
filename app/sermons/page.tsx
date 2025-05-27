@@ -3,6 +3,7 @@
 // import ContactForm from "@/components/ContactForm";
 import AllMinistriesSermons from "@/components/AllMinistriesSermons";
 import ContactHero from "@/components/ContactHero";
+import Footer from "@/components/Footer";
 // import FAQ from "@/components/FAQ";
 import React from "react";
 
@@ -14,6 +15,7 @@ const page = () => {
       {/* <ContactForm />
       <CallUsNow /> */}
       {/* <FAQ /> */}
+       <Footer showFooter={true} />
     </main>
   );
 };
