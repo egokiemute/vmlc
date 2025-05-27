@@ -1,5 +1,4 @@
 import Image from "next/image";
-// import Link from "next/link";
 import React from "react";
 
 interface Team {
@@ -15,76 +14,59 @@ interface Team {
 
 const teams: Team[] = [
   {
-    fullname: "Prophet William Marrion Branham",
-    title: "Lead Pastor & Founder",
+    fullname: "William Marrion Branham",
+    title: "",
     imageSrc: "/assets/team/william.jpg",
-    // twitter: "https://x.com/chideranwanyemi",
-    // linkedin: "https://www.linkedin.com/in/ozoofsouth/",
   },
-  // {
-  //   fullname: "Michelle Ozoefe",
-  //   title: "Co-Pastor & Partner",
-  //   imageSrc: "/assets/team/oke.jpg",
-  //   // twitter: "https://x.com/Oakswood6",
-  //   // linkedin: "https://www.linkedin.com/in/oke-omorohwovo-41089515b/",
-  // },
-  // {
-  //   fullname: "Joseph Haruna",
-  //   title: "Pastor & Partner",
-  //   imageSrc: "/assets/team/nelson.jpg",
-  //   // twitter: "https://x.com/i_am_goldnelson",
-  //   // linkedin: "https://www.linkedin.com/in/gold-nelson/",
-  // },
 ];
 
 const OurTeams = () => {
   return (
-    <section className="pb-20 pt-20 mb-20 mx-auto px-1">
-      <div className="max-w-8xl w-full">
-        <div className="flex flex-col gap-4 w-full font-neuehasslight">
-          <span className="text-sm text-gray-400 tracking-[2px] uppercase font-helveticaNowDisplayRegular">
-            Our Pastors
-          </span>
-          <hr />
-          <div className="py-2 flex items-center justify-between">
-            <h2 className="text-3xl font-semibold mb-6 max-w-sm font-helveticaNowDisplayBold">
-              Our God-Chosen pastors and ministers.
-            </h2>
+    <section className="pb-20 pt-20 mb-20 mx-auto px-4 bg-[#5975FF0D]">
+      <div className="container mx-auto max-w-6xl">
+        <div className="flex flex-col md:flex-row items-center md:items-start gap-10 md:gap-16">
+          {/* About Us Content */}
+          <div className="flex-1 text-center md:text-left">
+            <h4 className="font-medium mb-6 font-helveticaNowDisplayBold text-3xl tracking-wide">
+              About Us
+            </h4>
+            <p className="text-2xl font-neuehasslight leading-relaxed">
+              We are a Bible-believing church focused on preparing for the end
+              time through the teachings of William Marrion Branham. Our mission
+              is to live out the message of the hour and to help others come to
+              the fullness of Christ.
+            </p>
           </div>
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 py-4">
-          {teams.map((team, index) => (
-            <div key={index} className="max-w-md w-full h-[400px] flex-shrink-0">
-              <Image
-                src={team.imageSrc || ""}
-                alt={team.title || ""}
-                width={1000}
-                height={240}
-                className="object-cover grayscale h-[400px] rounded-2xl"
-              />
-              <div className="my-3">
-                <h3 className="text-lg font-semibold truncate font-helveticaNowDisplayBold">
-                  {team.fullname}
-                </h3>
-                <p className="text-gray-600 w-full font-helveticaNowDisplayRegular">
-                  {team.title}
-                </p>
-              </div>
-              {/* <div className="flex items-center gap-1 text-start mb-3">
-                <Link href={team.twitter || "#"} className="">
-                  <Image src="/assets/x-outline.svg" width={28} height={28} alt="X" />
-                </Link>
-                <Link href={team.linkedin || "#"} className="">
+          
+          {/* Team Member */}
+          <div className="flex-shrink-0">
+            {teams.map((team, index) => (
+              <div
+                key={index}
+                className="text-center"
+              >
+                <div className="mb-6">
                   <Image
-                    src="/assets/linkedIn-outline.svg"
-                    width={28}
-                    height={28}
-                    alt="linkedin"
+                    src={team.imageSrc || ""}
+                    alt={team.fullname || "Team member"}
+                    width={400}
+                    height={400}
+                    className="object-cover grayscale h-[400px] w-[400px] rounded-2xl mx-auto"
                   />
-                </Link>
-              </div> */}
-            </div>
-          ))}
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold font-helveticaNowDisplayBold">
+                    {team.fullname}
+                  </h3>
+                  {team.title && (
+                    <p className="text-gray-600 font-helveticaNowDisplayRegular">
+                      {team.title}
+                    </p>
+                  )}
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>

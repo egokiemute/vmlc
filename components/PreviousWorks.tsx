@@ -11,7 +11,8 @@ const PreviousWorks = () => {
   useEffect(() => {
     const fetchPosts = async () => {
       const posts = await getPosts();
-      setRecentData(posts);
+      // Limit to only 3 posts
+      setRecentData(posts.slice(0, 3));
     };
     fetchPosts();
   }, []);
