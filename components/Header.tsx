@@ -97,7 +97,7 @@ const Header = () => {
           text="Contact us"
           className={isActive("/contact") ? "text-gray-400" : ""}
         /> */}
-        <Link href="/give" className="font-normal flex items-center">
+        {/* <Link href="/give" className="font-normal flex items-center">
           <Button
             text="Give"
             className={`w-[120px] h-10 rounded-lg font-helveticaNowDisplayRegular whitespace-nowrap ${
@@ -105,7 +105,7 @@ const Header = () => {
             }`}
             variant="outline"
           />
-        </Link>
+        </Link> */}
       </div>
       <div className="flex items-center gap-3 md:hidden">
         <div
@@ -141,7 +141,7 @@ const Header = () => {
                 {href.replace("/", "").replace(/^\w/, (c) => c.toUpperCase())}
               </Link>
             ))}
-            <Link href="/give" className="text-center flex items-center">
+            {/* <Link href="/give" className="text-center flex items-center">
               <Button
                 text="Give"
                 className={`w-[180px] h-20 rounded-full font-helveticaNowDisplayRegular text-xl font-bold whitespace-nowrap mt-6 ${
@@ -149,7 +149,7 @@ const Header = () => {
                 }`}
                 variant="outline"
               />
-            </Link>
+            </Link> */}
           </div>
         </div>
       )}
