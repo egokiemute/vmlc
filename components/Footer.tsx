@@ -33,9 +33,9 @@ const Footer = ({ showFooter = true }: FooterProps) => {
                 className="text-white"
               />
               <CustomLink
-                href="mailto:hello@omegalivingbride.com"
+                href="mailto:omegalivingbridetabwenacle@gmail.com"
                 animate={false}
-                text="hello@omegalivingbride.com"
+                text="omegalivingbridetabwenacle@gmail.com"
                 className="border-b-[0.2px] border-[#919191b0] text-[#fff]"
               />
             </div>

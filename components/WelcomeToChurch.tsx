@@ -61,11 +61,11 @@ const WelcomeToChurch = () => {
           </h1>
           <p className="font-normal text-lg sm:text-xl md:text-xl text-[#0C0C0CB0] mb-4 font-helveticaNowDisplayRegular px-2 max-w-xl">
             We are a Message-believing church rooted in the teachings of William
-            Marrion Branham, called out as
+            Marrion Branham, called out from every denomination and creeds and dogmas.
           </p>
           <div className="py-2 flex items-center font-helveticaNowDisplayRegular text-lg italic max-w-sm mx-auto p-8 border border-black/20 rounded-lg">
             &quot;The Message will forerun the second coming, just as John
-            forerun the First Coming&quot;
+            foreran the First Coming&quot;
           </div>
         </div>
         {/* Grid layout for work items */}
