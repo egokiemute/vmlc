@@ -17,9 +17,9 @@ const works: SelectedWorks[] = [
   {
     id: 1,
     title: "About Omega Living Bride Tabernacle",
-    category: ["Vision"],
+    category: [""],
     description: "Mission, To prepare, purify and position the Bride of Jesus Christ for His imminent return.",
-    imageSrc: "/assets/selected/outreach.jpg",
+    imageSrc: "/assets/team/william.jpg",
     slug: "/about",
   },
   // {

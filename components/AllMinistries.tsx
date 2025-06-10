@@ -16,7 +16,7 @@ interface AllMinistries {
 const works: AllMinistries[] = [
   {
     id: 1,
-    title: "Celebrating youthfulness",
+    title: "Marriage and divorce",
     category: ["Visual Identity"],
     description: "Youth Ministry",
     imageSrc: "/assets/selected/youthful.jpg",
@@ -24,7 +24,7 @@ const works: AllMinistries[] = [
   },
   {
     id: 2,
-    title: "Building souls",
+    title: "Changing of the soul or 2 soul doctrine",
     category: ["Visual Identity", "Brand Strategy"],
     description: "Evangelism Ministry",
     imageSrc: "/assets/selected/souls.jpg",
@@ -32,7 +32,7 @@ const works: AllMinistries[] = [
   },
   {
     id: 3,
-    title: "Worship outreach",
+    title: "The sequence of literal events to be",
     category: ["Visual Identity", "Brand Strategy"],
     description: "Ultimate Music Concert",
     imageSrc: "/assets/selected/worship.jpg",
@@ -53,10 +53,15 @@ const AllMinistries = () => {
     <section className="md:mt-24 mx-auto px-4 md:px-10 pb-20">
       <div className="flex flex-col md:flex-row items-center gap-20 w-full mx-auto">
         <div className="flex flex-col items-center text-center gap-4 max-w-lg font-neuehasslight">
-          <span className="text-xs uppercase tracking-wider font-medium">Featured Sermons</span>
-          <h1 className="text-4xl md:text-6xl font-bold font-helveticaNowDisplayBold max-w-lg">
-            THERE&apos;S A PLACE FOR{" "}
-            <span className="text-[#2e3b4d]">EVERYONE</span>
+          <span className="text-xs uppercase tracking-wider font-medium">
+            Featured Sermons
+          </span>
+          <h1 className="text-3xl md:text-4xl font-bold font-helveticaNowDisplayBold max-w-lg">
+            THERE&apos;S A MESSAGE WITH{" "}
+            <span className="">THE MESSAGE OF THE</span>
+            <span className="text-[#2e3b4d]">
+              PROPHET WILLAIM MARRION BRANHAM
+            </span>
           </h1>
           <Link href="#">
             <Button

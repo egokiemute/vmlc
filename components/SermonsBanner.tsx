@@ -14,8 +14,7 @@ const SermonsBanner = () => {
           Sermons & Teachings
         </h2>
         <p className="mt-2 mb-8 text-base md:text-lg">
-          Be inspired by powerful messages of faith and hope from our Pastor and
-          get filled and transformed.
+          Be revelated and alive to the mysteries of the seven thunders, the token for our day brought by the prophet William Marrion Branham. 
         </p>
         <Link href="/sermons">
           <Button

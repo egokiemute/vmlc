@@ -91,7 +91,7 @@ const AllMinistriesSermons = () => {
 
   return (
     <section className="pt-24 md:mt-24 mx-auto px-4 md:px-10 pb-32">
-      <div className="flex flex-col md:flex-row items-center gap-20 w-full mx-auto">
+      {/* <div className="flex flex-col md:flex-row items-center gap-20 w-full mx-auto">
         <div className="flex flex-col items-center text-center gap-4 max-w-lg font-neuehasslight">
           <span className="text-xs uppercase tracking-wider font-medium">
             Ministries
@@ -102,7 +102,7 @@ const AllMinistriesSermons = () => {
           </h1>
         </div>
         
-        {/* Static Works Grid */}
+        Static Works Grid
         <div className="flex flex-col md:flex-row gap-10 mt-10">
           {works.map((work, index) => (
             <Link key={index} href={`${work.slug || "/"}`}>
@@ -128,10 +128,10 @@ const AllMinistriesSermons = () => {
             </Link>
           ))}
         </div>
-      </div>
+      </div> */}
 
       {/* Sanity Posts Section */}
-      <div className="w-full mt-20">
+      <div className="w-full mt-10">
         <h2 className="text-3xl font-semibold font-helveticaNowDisplayBold mb-10 text-center">
           All Sermons
         </h2>
