@@ -19,8 +19,8 @@ const works: AllMinistries[] = [
     title: "Marriage and divorce",
     category: [],
     // description: "Youth Ministry",
-    imageSrc: "/assets/selected/youthful.jpg",
-    slug: "/",
+    imageSrc: "/assets/divorce.jpg",
+    slug: "/sermons",
   },
   {
     id: 2,
@@ -28,15 +28,15 @@ const works: AllMinistries[] = [
     category: [],
     // description: "Evangelism Ministry",
     imageSrc: "/assets/selected/souls.jpg",
-    slug: "/",
+    slug: "/sermons",
   },
   {
     id: 3,
     title: "The sequence of literal events to be",
     category: [],
     // description: "Ultimate Music Concert",
-    imageSrc: "/assets/selected/youthful.jpg",
-    slug: "/",
+    imageSrc: "/assets/sequence.jpg",
+    slug: "/sermons",
   },
   // {
   //   id: 4,
@@ -57,13 +57,13 @@ const AllMinistries = () => {
             Featured Sermons
           </span>
           <h1 className="text-3xl md:text-4xl font-bold font-helveticaNowDisplayBold max-w-lg">
-            THERE&apos;S A MESSAGE WITH{" "}
-            <span className="">THE MESSAGE OF THE</span>
+            THERE&apos;S A MESSAGE WITHIN{" "}
+            <span className="">THE MESSAGE OF THE{" "}</span>
             <span className="text-[#2e3b4d]">
               PROPHET WILLAIM MARRION BRANHAM
             </span>
           </h1>
-          <Link href="#">
+          <Link href="/sermons">
             <Button
               text="View more sermons"
               className="w-48 h-12 py-2 text-center text-lg font-medium rounded-full whitespace-nowrap tracking-tight font-helveticaNowDisplayRegular hidden md:inline-block"

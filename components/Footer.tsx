@@ -33,15 +33,15 @@ const Footer = ({ showFooter = true }: FooterProps) => {
                 className="text-white"
               />
               <CustomLink
-                href="mailto:omegalivingbridetabwenacle@gmail.com"
+                href="mailto:omegalivingbridetabernacle@gmail.com"
                 animate={false}
-                text="omegalivingbridetabwenacle@gmail.com"
+                text="omegalivingbridetabernacle@gmail.com"
                 className="border-b-[0.2px] border-[#919191b0] text-[#fff]"
               />
             </div>
             <div className="max-w-sm text-white text-start font-helveticaNowDisplayRegular">
               <p>11 Ejoyokah Street, Jakpa Rd, Tori, </p>
-              <p>Effurun 330102, Delta</p>
+              <p>Effurun 330102, Delta State, Nigeria.</p>
             </div>
           </div>
         </div>
@@ -80,12 +80,12 @@ const Footer = ({ showFooter = true }: FooterProps) => {
                 text="Sermons"
                 className="border-b-[0.2px] border-[#919191b0]"
               />
-              <CustomLink
+              {/* <CustomLink
                 href="/give"
                 animate={true}
                 text="Give"
                 className="border-b-[0.2px] border-[#919191b0]"
-              />
+              /> */}
             </div>
           </div>
         </div>
@@ -96,7 +96,7 @@ const Footer = ({ showFooter = true }: FooterProps) => {
           <p>&copy; {year} Omega Living Bridge Tabernacle, All right reserved.</p>
         </div>
         <div className="flex items-center gap-6 text-sm text-[#fff]">
-          <CustomLink href="https://kodenigga.vercel.app" animate={true} text="Developed by egokiemute" />
+          <CustomLink href="https://egokiemute.vercel.app" animate={true} text="Developed by egokiemute" />
         </div>
       </div>
     </footer>

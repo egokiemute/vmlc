@@ -18,7 +18,7 @@ const works: SelectedWorks[] = [
     id: 1,
     title: "About Omega Living Bride Tabernacle",
     category: [""],
-    description: "Mission, To prepare, purify and position the Bride of Jesus Christ for His imminent return.",
+    description: "Mission: To prepare, purify and position the Bride of Jesus Christ for His imminent return.",
     imageSrc: "/assets/team/william.jpg",
     slug: "/about",
   },
@@ -61,7 +61,7 @@ const WelcomeToChurch = () => {
           </h1>
           <p className="font-normal text-lg sm:text-xl md:text-xl text-[#0C0C0CB0] mb-4 font-helveticaNowDisplayRegular px-2 max-w-xl">
             We are a Message-believing church rooted in the teachings of William
-            Marrion Branham, called out from every denomination and creeds and dogmas.
+            Marrion Branham, called out from every denomination, creeds, and dogmas.
           </p>
           <div className="py-2 flex items-center font-helveticaNowDisplayRegular text-lg italic max-w-sm mx-auto p-8 border border-black/20 rounded-lg">
             &quot;The Message will forerun the second coming, just as John

@@ -11,10 +11,10 @@ const SermonsBanner = () => {
       {/* Bottom-left text */}
       <div className="absolute bottom-10 left-6 md:left-10 z-20 text-white max-w-xl">
         <h2 className="text-4xl md:text-5xl font-bold font-helveticaNowDisplayBold">
-          Sermons & Teachings
+          A cluster of sermons preached.
         </h2>
         <p className="mt-2 mb-8 text-base md:text-lg">
-          Be revelated and alive to the mysteries of the seven thunders, the token for our day brought by the prophet William Marrion Branham. 
+          Being revelated and alive to the mysteries of the seven thunders, the token for our day brought by the prophet William Marrion Branham. 
         </p>
         <Link href="/sermons">
           <Button
