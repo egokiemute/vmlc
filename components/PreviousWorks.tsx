@@ -171,7 +171,7 @@ const PreviousWorks = () => {
         </div>
         <div className="py-6 mt-10 text-center">
           <Link
-            href="/works"
+            href="/sermons"
             className="font-helveticaNowDisplayRegular text-2xl text-gray-400 hover:text-gray-300 duration-300 ease-in-out font-bold"
           >
             View All Sermons
