@@ -61,7 +61,6 @@ const PreviousWorks = () => {
               key={index}
               className={`bg-transparent rounded-lg ${work.span ? "lg:col-span-2 lg:row-span-2" : ""}`}
             >
-              {/* <Link href={`/works/${work.slug?.current || '/'}`}> */}
                 {work.mediaType === "image" && work.imageUrl && (
                   <img
                     src={work.imageUrl}
@@ -95,7 +94,6 @@ const PreviousWorks = () => {
                     className="w-full h-auto object-cover mb-4 rounded-t"
                   />
                 )}
-              {/* </Link> */}
               
               <div className="p-6 pt-1">
                   <h3 className="text-xl font-bold mb-2 hover:text-gray-600 transition-colors font-helveticaNowDisplayBold">

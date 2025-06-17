@@ -22,30 +22,6 @@ const works: SelectedWorks[] = [
     imageSrc: "/assets/team/william.jpg",
     slug: "/about",
   },
-  // {
-  //   id: 2,
-  //   title: "Youth program",
-  //   category: ["Evangelism"],
-  //   description: "Raising a generation of believers.",
-  //   imageSrc: "/assets/selected/youth.jpg",
-  //   slug: "/",
-  // },
-  // {
-  //   id: 3,
-  //   title: "Teenage program",
-  //   category: ["Champions"],
-  //   description: "Building a generation of champions.",
-  //   imageSrc: "/assets/selected/teenage.jpg",
-  //   slug: "/",
-  // },
-  // {
-  //   id: 4,
-  //   title: "Coming Soon...",
-  //   category: ["UI/UX Design"],
-  //   description: "Coming...",
-  //   imageSrc: "/assets/selected/ciange.png",
-  //   slug: "https://www.behance.net/southcircle",
-  // },
 ];
 
 const WelcomeToChurch = () => {
@@ -117,11 +93,11 @@ const WelcomeToChurch = () => {
           ))}
         </div>
         <Link
-          href="/works"
+          href="/sermons"
           className="py-10 flex items-center justify-center md:hidden"
         >
           <Button
-            text="See all works"
+            text="See all sermons"
             className="w-44 h-12 py-2 text-center text-base md:text-lg font-medium rounded-full whitespace-nowrap tracking-tight font-helveticaNowDisplayRegular"
             variant="outline"
           />

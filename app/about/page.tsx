@@ -1,7 +1,6 @@
 import Footer from "@/components/Footer";
 import OurTeams from "@/components/OurTeams";
 import PreviousWorks from "@/components/PreviousWorks";
-// import WhoWeAre from "@/components/WhoWeAre";
 
 const page = () => {
   return (
